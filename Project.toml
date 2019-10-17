@@ -1,0 +1,12 @@
+name = "GLFW_jll"
+uuid = "0656b61e-2033-5cc2-a64a-77c0f6c09b89"
+version = "3.3.0+0"
+
+[deps]
+Libglvnd_jll = "7e76a0d4-f3c7-5321-8279-8d96eeed0f29"
+X11_jll = "546b0b6d-9ca3-5ba2-8705-1bc1841d8479"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.3"
