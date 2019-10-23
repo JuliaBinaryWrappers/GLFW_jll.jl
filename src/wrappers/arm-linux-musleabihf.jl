@@ -2,7 +2,10 @@
 export libglfw
 
 using Libglvnd_jll
-using X11_jll
+using Xorg_libXcursor_jll
+using Xorg_libXi_jll
+using Xorg_libXinerama_jll
+using Xorg_libXrandr_jll
 ## Global variables
 PATH = ""
 LIBPATH = ""
@@ -30,8 +33,8 @@ function __init__()
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    append!.(Ref(PATH_list), (Libglvnd_jll.PATH_list, X11_jll.PATH_list,))
-    append!.(Ref(LIBPATH_list), (Libglvnd_jll.LIBPATH_list, X11_jll.LIBPATH_list,))
+    append!.(Ref(PATH_list), (Libglvnd_jll.PATH_list, Xorg_libXcursor_jll.PATH_list, Xorg_libXi_jll.PATH_list, Xorg_libXinerama_jll.PATH_list, Xorg_libXrandr_jll.PATH_list,))
+    append!.(Ref(LIBPATH_list), (Libglvnd_jll.LIBPATH_list, Xorg_libXcursor_jll.LIBPATH_list, Xorg_libXi_jll.LIBPATH_list, Xorg_libXinerama_jll.LIBPATH_list, Xorg_libXrandr_jll.LIBPATH_list,))
 
     global libglfw_path = abspath(joinpath(artifact"GLFW", libglfw_splitpath...))
 
