@@ -29,14 +29,18 @@ const libglfw = "glfw3.dll"
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"GLFW")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    append!.(Ref(PATH_list), (Libglvnd_jll.PATH_list, Xorg_libXcursor_jll.PATH_list, Xorg_libXi_jll.PATH_list, Xorg_libXinerama_jll.PATH_list, Xorg_libXrandr_jll.PATH_list,))
-    append!.(Ref(LIBPATH_list), (Libglvnd_jll.LIBPATH_list, Xorg_libXcursor_jll.LIBPATH_list, Xorg_libXi_jll.LIBPATH_list, Xorg_libXinerama_jll.LIBPATH_list, Xorg_libXrandr_jll.LIBPATH_list,))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
+    # then append them to our own.
+    foreach(p -> append!(PATH_list, p), (Libglvnd_jll.PATH_list, Xorg_libXcursor_jll.PATH_list, Xorg_libXi_jll.PATH_list, Xorg_libXinerama_jll.PATH_list, Xorg_libXrandr_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (Libglvnd_jll.LIBPATH_list, Xorg_libXcursor_jll.LIBPATH_list, Xorg_libXi_jll.LIBPATH_list, Xorg_libXinerama_jll.LIBPATH_list, Xorg_libXrandr_jll.LIBPATH_list,))
 
-    global libglfw_path = abspath(joinpath(artifact"GLFW", libglfw_splitpath...))
+    global libglfw_path = normpath(joinpath(artifact_dir, libglfw_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
