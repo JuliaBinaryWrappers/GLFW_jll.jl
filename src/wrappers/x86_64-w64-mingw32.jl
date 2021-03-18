@@ -12,7 +12,7 @@ function __init__()
     JLLWrappers.@generate_init_header(Libglvnd_jll, Xorg_libXcursor_jll, Xorg_libXi_jll, Xorg_libXinerama_jll, Xorg_libXrandr_jll)
     JLLWrappers.@init_library_product(
         libglfw,
-        "bin/glfw3.dll",
+        "bin\\glfw3.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
