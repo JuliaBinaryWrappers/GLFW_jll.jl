@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libglfw,
-        "lib/libglfw.3.3.dylib",
+        "lib/libglfw.3.4.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
