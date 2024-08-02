@@ -1,6 +1,6 @@
 name = "GLFW_jll"
 uuid = "0656b61e-2033-5cc2-a64a-77c0f6c09b89"
-version = "3.4.0+0"
+version = "3.4.0+1"
 
 [deps]
 Libglvnd_jll = "7e76a0d4-f3c7-5321-8279-8d96eeed0f29"
@@ -11,6 +11,7 @@ Xorg_libXinerama_jll = "d1454406-59df-5ea1-beac-c340f2130bc3"
 Xorg_libXrandr_jll = "ec84b674-ba8e-5d96-8ba1-2a689ba10484"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+libdecor_jll = "1183f4f0-6f2a-5f1a-908b-139f9cdfea6f"
 Xorg_libXi_jll = "a51aa0fd-4e3c-5386-b890-e753decda492"
 
 [compat]
