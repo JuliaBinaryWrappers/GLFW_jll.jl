@@ -1,92 +1,101 @@
 [[GLFW]]
 arch = "aarch64"
-git-tree-sha1 = "7ead0a440ba045155db235bff6602a984f08a651"
+git-tree-sha1 = "226fe34989557ac27bbd60ea8ab90bb7a4c58dcf"
 os = "macos"
 
     [[GLFW.download]]
-    sha256 = "9756ab34a40830adb60348565a4e67ce3237f5136085cf0077ae69c923fabd46"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "0965efc7e3d51b8ff93d5aa8add31c5d4c74cf424aa64d83b3e5288384cd93c1"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.aarch64-apple-darwin.tar.gz"
 [[GLFW]]
 arch = "aarch64"
-git-tree-sha1 = "692cf1c4cfbba1805b292b9f70f79b1cd8c9a91b"
+git-tree-sha1 = "5790954dded7580fbe98deb6ad58f2a3a775d5b8"
 libc = "glibc"
 os = "linux"
 
     [[GLFW.download]]
-    sha256 = "e8c7e625c1febf1e852b8099f79c1a1ac39265c9f221a5e1f1da373b8c2e51ae"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "09fd165d90405b77d84876d88592cdfe3d84fd723bab33fc9a82d53f5d37149e"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.aarch64-linux-gnu.tar.gz"
 [[GLFW]]
 arch = "aarch64"
-git-tree-sha1 = "cbacd5eee7b1857898caed86affe9d8923a06446"
+git-tree-sha1 = "a961edbff5a2f11b9bd762ea6c7ae25cfa0eeabd"
 libc = "musl"
 os = "linux"
 
     [[GLFW.download]]
-    sha256 = "402dd7626bf00743b247fed9ff7c27571ce0601a5750dfdecc3d1f168dc353cc"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.aarch64-linux-musl.tar.gz"
+    sha256 = "68cec29b5b9fe5e703c6b379e4d5a521ef54ae1bb0ccf10372deb59218aca718"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.aarch64-linux-musl.tar.gz"
 [[GLFW]]
 arch = "aarch64"
-git-tree-sha1 = "de6588846aa270fa00ef637f7b527c945bbba0b7"
+git-tree-sha1 = "d81b1ef19323cab3ad9e365f155efc90275a6a48"
 os = "freebsd"
 
     [[GLFW.download]]
-    sha256 = "a5cfab7f848e937ea923e2cbab9f191c7ca18630b35822283218c5d4363db77b"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "c5b78a7e7d5a5b3a2f93829e7968f64d4e9de528122efd8d77ff75927d595f82"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.aarch64-unknown-freebsd.tar.gz"
 [[GLFW]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "6a289d07a74dd9ea677513f6dddbdddb3fd39670"
+git-tree-sha1 = "72ab1d977d45293e52acddedff8f790741b353bc"
 libc = "glibc"
 os = "linux"
 
     [[GLFW.download]]
-    sha256 = "41710448867d269204f0543347642caefb322797aab0f32689b09cd254a17a6d"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "4095cef462d5604573ffe7b9d14978a7bd6c9b3b6faca278929503ef66c11dcb"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.armv7l-linux-gnueabihf.tar.gz"
 [[GLFW]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "afb380d749e0224107d1eefd8bacfb3260970ac9"
+git-tree-sha1 = "1678598d5650bb3a86a452d4d5b0849589037d6e"
 libc = "musl"
 os = "linux"
 
     [[GLFW.download]]
-    sha256 = "34e90ec3a8f0a825ca5956b928b048d82b477a9d4aa95f8c1e582b22559af394"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "f9b9e311e02a8cab8d2b1d207f69225af6429fea7f40f9cec4ec4a3cf31328b5"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.armv7l-linux-musleabihf.tar.gz"
 [[GLFW]]
 arch = "i686"
-git-tree-sha1 = "cd950e33809f27c784d314defec38d4d71eeb41c"
+git-tree-sha1 = "294e10b1845ea1637381ad0408eae9e7e60a6cad"
 libc = "glibc"
 os = "linux"
 
     [[GLFW.download]]
-    sha256 = "25528518541c5f58e57f686a035904b4f97a91eefe71665cc7f01dbdf01eebf1"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.i686-linux-gnu.tar.gz"
+    sha256 = "706637816e81c1e39ba2a07df3515e54e3a499c309dbfb696251a4d447a2989e"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.i686-linux-gnu.tar.gz"
 [[GLFW]]
 arch = "i686"
-git-tree-sha1 = "5cc59c0fd87310449f77f195038900ec2fab3b94"
+git-tree-sha1 = "f13b5ba5be85628ec353fe061a06740ac8e883ea"
 libc = "musl"
 os = "linux"
 
     [[GLFW.download]]
-    sha256 = "35d85df38f1c9a02af134fd77ca47ff57d702835b6e42ceb14201261c361d3df"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.i686-linux-musl.tar.gz"
+    sha256 = "13805a960468dbecfb79ec1b8a557edfb554fbcfe46110795cad08eee7da9098"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.i686-linux-musl.tar.gz"
 [[GLFW]]
 arch = "i686"
-git-tree-sha1 = "dcf6c398aaa2b165768bfbd4d3d806eba56f8001"
+git-tree-sha1 = "a8a7420542855bda01db347c929cdfca9f553ea7"
 os = "windows"
 
     [[GLFW.download]]
-    sha256 = "bdb7d36870be8a512a709a2ca075593d2be035cc01d75c2624e15c8fd604fa65"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.i686-w64-mingw32.tar.gz"
+    sha256 = "04984dba26d7d647804e225c56eb2725bff9bc9dac71e0a0e2c0da897e206377"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.i686-w64-mingw32.tar.gz"
 [[GLFW]]
 arch = "powerpc64le"
-git-tree-sha1 = "49d1513a3e789f2567199dc3cd3755e0c4ffbf50"
+git-tree-sha1 = "0f44c35efb6ed00311b1088e1f0309632537d1cc"
 libc = "glibc"
 os = "linux"
 
     [[GLFW.download]]
-    sha256 = "5fb362bdd338823c2d1457a6a5aa4ac7cfedb3876558321e7bf7e38b4c9f7f3e"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "0162c6318e75a34e6c36cd807121e2583103a5c8bfc1079a1eb93f5d460b40db"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.powerpc64le-linux-gnu.tar.gz"
+[[GLFW]]
+arch = "riscv64"
+git-tree-sha1 = "94d745e9a99bfc15dac9c372405020ef767eedea"
+libc = "glibc"
+os = "linux"
+
+    [[GLFW.download]]
+    sha256 = "9d39fdf96b6c57d866ef6bc9854877b5ebbf03a69e64ee2c2053343836a6be51"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.riscv64-linux-gnu.tar.gz"
 [[GLFW]]
 arch = "x86_64"
 git-tree-sha1 = "34c97139039152f08e86e7e9f1110679c0274d39"
@@ -94,38 +103,38 @@ os = "macos"
 
     [[GLFW.download]]
     sha256 = "5e70ff43ec3c097848cdb5a2e838dd970895b39367545fb4e96d89998a3092f7"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.x86_64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.x86_64-apple-darwin.tar.gz"
 [[GLFW]]
 arch = "x86_64"
-git-tree-sha1 = "55f9376d5c77106b4813c4fb45a6b37a77d4d823"
+git-tree-sha1 = "a98a61fe400fc88f9d0364b17396d063c1bcf20f"
 libc = "glibc"
 os = "linux"
 
     [[GLFW.download]]
-    sha256 = "94f068030f449833ed0b5fb307996477f22555c1d06c00566cb0b645faad1c74"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "b413f316d5f3208a7d012ea762a4b4abd5bedb76b6b047fc77176b5c224c01ee"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.x86_64-linux-gnu.tar.gz"
 [[GLFW]]
 arch = "x86_64"
-git-tree-sha1 = "6178879ea6dbcc68f23c62d48e184b4213517346"
+git-tree-sha1 = "e857e49ba80ab16516038fe2c8588739e77a0540"
 libc = "musl"
 os = "linux"
 
     [[GLFW.download]]
-    sha256 = "12566d740939e52c496e4d85603ebaa2a65d92893bec3d431e0f89d256169806"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.x86_64-linux-musl.tar.gz"
+    sha256 = "989340765ba5a980b30bb175c71967ca31b068bc3027ceef3a67df44538bf1a2"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.x86_64-linux-musl.tar.gz"
 [[GLFW]]
 arch = "x86_64"
-git-tree-sha1 = "dad0d1cca40c418e68c84da789d656e281ca0e07"
+git-tree-sha1 = "9959f33498c83ddc10d25f38b60ffb29cd1a630f"
 os = "freebsd"
 
     [[GLFW.download]]
-    sha256 = "0fe87a2aa32c8a754f9b381c14517151012f3e498d95b2a789604cb0b1664b09"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "b462ef3cdaacc7723e2011ee5e3798153a2637ae8c5b15b1c82fc0245d62ff9d"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.x86_64-unknown-freebsd.tar.gz"
 [[GLFW]]
 arch = "x86_64"
-git-tree-sha1 = "02775a21e94cac114e07abbcf93b4d00c82a58e2"
+git-tree-sha1 = "f1967b7154aa6069a645866edddb0824897af85f"
 os = "windows"
 
     [[GLFW.download]]
-    sha256 = "a1f5fffbfeb4ee416e1ced3b47a12f6a8b7a40304513c40adb842806e57a200d"
-    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+2/GLFW.v3.4.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "212912226bd0b2535e80d6271738fea89ac5cbc0288f4cfbc00f24dc70687c15"
+    url = "https://github.com/JuliaBinaryWrappers/GLFW_jll.jl/releases/download/GLFW-v3.4.0+3/GLFW.v3.4.0.x86_64-w64-mingw32.tar.gz"
